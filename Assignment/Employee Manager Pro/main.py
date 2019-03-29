@@ -35,7 +35,7 @@ def main():
         elif(ch1 == 3):
             #emp = Emps()
             for employee in employees:
-                Emps().incr(employee)
+                Emps.incr(employee)
             
         else:
             print("Invalid Input\n")

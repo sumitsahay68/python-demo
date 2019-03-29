@@ -47,7 +47,8 @@ class Programmer(Employee):
         self.salary+=5000
 
 class Emps:
-    def incr(self,obj):
+    @staticmethod
+    def incr(obj):
         obj.raiseSalary()
     
     
