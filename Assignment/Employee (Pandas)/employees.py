@@ -25,6 +25,11 @@ for name,group in deptgroup:
     print("::DEPT: ",name)
     print(group)
     print("\nDepartment Cost: Rs.",group.sum()['salary'])
+    mean_age = group.mean()['age']
+    if(mean_age<35):
+        print("YOUNGSTER'S DEPARTMENT: ",int(mean_age))
+    else:
+        print("ELDER'S DEPARTMENT: ",int(mean_age))
     print("--------------------------------------------------------------------------------------------------------------------------------")
 
 
@@ -56,3 +61,8 @@ eid = int(input("Enter Employee ID: "))
 print(df[df.id == eid])
 
 
+print()
+print("======================FILLNA DEMO=============================================")
+dfn =pd.read_csv("emp_data2.csv",delimiter = ",",names=['id','name','age','salary','designation','dept','project_id','project_name','manager','city','state'])
+dfn['designation'].fillna("Employee",inplace =True)
+print(dfn)
