@@ -1,0 +1,9 @@
+Sumit|21|25000|Programmer
+Sudhanshu|22|8000|Clerk
+Rahul|21|80000|Manager
+Slim Shady|45|80000|Manager
+shubham kumar|79|25000|Programmer
+John Cena|41|8000|Clerk
+Sumit|23|25000|Programmer
+Rock|25|80000|Manager
+Eminem|25|25000|Programmer
