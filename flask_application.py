@@ -13,9 +13,9 @@ def bye():
 @app.route ("/abc/", methods = ['GET','POST'])
 def abc():
     if request.method == 'GET':
-        return jsonify({"Welcome":"GUEST!!!"})
+        return jsonify({"Welcome":"GUEST!!!"}),202
     if request.method == 'POST':
-        return jsonify({"Good Bye":"GUEST!!!"})
+        return jsonify({"Good Bye":"GUEST!!!"}),203
 
 @app.route("/cube/<int:num>" , methods = ['GET'])
 def cube(num):
