@@ -20,7 +20,7 @@ print()
 
 print("=======Cost Dept Wise===========")  #'Development'|'Testing'|'Management
 deptgroup = df.groupby('dept')
-
+print(type(deptgroup))
 for name,group in deptgroup:
     print("::DEPT: ",name)
     print(group)

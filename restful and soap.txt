@@ -1,0 +1,33 @@
+SOA
+-RESTful Services
+-SOAP Web Services
+
+-> SOA - Service Oriented Architecture
+
+		   UDDI			      WSDL
+Service Request ---------> Service Broker<-------------Service Provider
+	|						       ^
+	|------------------------------------------------------|
+				XML
+
+
+UDDI - Universal Description Discovery Integration
+WSDL - Web Service Description Language
+
+SOA uses SOAP Protocol
+
+-> ROA  - Resource Oriented Architecture
+
+REST uses HTTP Protocol - predefined http methods(GET,POST,PUT,DELETE)
+http - stateless
+cookies etc needs to be implemented
+Uses WADL - Web Application Description Language
+JSON & XML
+
+For Asynchronous:
+SOAP/Http
+SOAP/JMS (async)
+
+
+For creating RESTful services i.e Services as URL:
+FLASK Framework (Micro Framework)
